@@ -2,29 +2,30 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- insert main stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/main-new.css">
 <!-- insert jquery stylesheet --> 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
 <!-- insert semantic ui stylesheet --> 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
-<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> 
 <!-- insert main javascript --> 
 <script src="js/main-new.js"></script>
-<!-- insert accordion script -->
+<!-- insert formantic uI modal js -->
+<script src="lib/formantic-ui/modal.js"></script>
+<!-- insert accordion script-->
 <script src="js/accordion.js"></script>
 <title>Darlene Agbayani | Home</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
-	
+
 <body>
 <!-- computer tablet only -->
 <div class="ui equal width grid computer">
   <div class="ui computer tablet only row">
     <div class="ui sixteen wide column"> 
       <!-- header -->
-      <div class="ui center aligned three column stackable grid">
+      <div class="ui center aligned four column stackable grid">
         <div class="row"> 
           <!--navigation-->
           <div class="two wide column">
@@ -39,7 +40,7 @@
             <div class="ui one column grid">
               <div class="row"> 
                 <!-- about -->
-                <div class="column"> <img class="ui medium right floated image" alt="about" src="img/home/home-title.png"></div>
+                <div class="column"> <img class="ui medium right floated image" alt="about" src="/img/home/home-title.png"></div>
               </div>
               <!-- divider -->
               <div class="ui divider"></div>
@@ -47,7 +48,7 @@
                 <!-- body --> 
                 <!-- about content -->
                 <div class="right floated column">
-					<!-- accordion -->
+				  <!-- accordion -->
                   <div class="ui right aligned right floated accordion"> 
                     <!-- sales -->
                     <div class="ui fluid title">LATEST WORK&nbsp;&nbsp;<i class="small plus icon"></i></div>
@@ -123,7 +124,7 @@
                                   <script>dimmer();</script>
                                   <div class="five wide column">
                                     <div class="ui circular image">
-                                      <img src="img/home/view6.png"> </div>
+                                      <img src="/img/home/view6.png"> </div>
                                   </div>
                                   <div class="ui divider"></div>
                                   <!-- end of row --> 
@@ -145,12 +146,16 @@
                   </div>
                   <script>accordion();</script> 
                   <!-- end accordion --> 
+                  <!-- end of right floated column --> 
+				  
+				  </div>
               </div>
             </div>
           </div>
-		</div>
+          <!-- blank space -->
+          <div class="one wide column"></div>
           <!-- background image -->
-          <div class="eight wide right floated column">
+          <div class="eight wide column">
             <div class="row">
               <div class="ui three column grid">
                 <div class="column home">
@@ -162,7 +167,7 @@
                           <a class="dimmerfont" href="about.html">ABOUT</a></div>
                       </div>
                     </div>
-                    <img src="img/home/view1.PNG"> </div>
+                    <img src="/img/home/view1.png"> </div>
                   <script>dimmer();</script> 
                 </div>
                 <div class="column home">
@@ -178,7 +183,7 @@
                                   <a class="dimmerfont" href="experience.html">EXPERIENCE</a></div>
                               </div>
                             </div>
-                            <img src="img/home/view2.PNG"> </div>
+                            <img src="/img/home/view2.png"> </div>
                           <script>dimmer();</script> 
                         </div>
                       </div>
@@ -191,7 +196,7 @@
                                 <a class="dimmerfont" href="design.html">DESIGN</a></div>
                             </div>
                           </div>
-                          <img src="img/home/view4.PNG"> </div>
+                          <img src="/img/home/view4.png"> </div>
                         <script>dimmer();</script> </div>
                     </div>
                   </div>
@@ -209,7 +214,7 @@
                                 <a class="dimmerfont" href="websites.html">WEBSITES</a></div>
                             </div>
                           </div>
-                          <img src="img/home/view3.PNG"> </div>
+                          <img src="/img/home/view3.png"> </div>
                         <script>dimmer();</script></div>
                         <div class="column">
                           <div class="ui fluid image">
@@ -220,7 +225,7 @@
                                 <a class="dimmerfont" href="contact.html">CONTACT</a></div>
                             </div>
                           </div>
-                          <img src="img/home/view5.PNG"> </div>
+                          <img src="/img/home/view5.png"> </div>
                         <script>dimmer();</script></div>
                     </div>
                   </div>
@@ -229,8 +234,8 @@
               </div>
             </div>
           </div>
-	  </div>
-	</div>
+        </div>
+      </div>
       <!-- footer -->
       <div class="ui center aligned two column grid">
         <div class="row">
@@ -268,7 +273,7 @@
       <div class="ui top fixed stackable menu">
         <div class="row"> 
           <!-- welcome -->
-          <div class="thirteen wide column"><img class="ui centered medium image" alt="welcome" src="img/home/home-title.png"></div>
+          <div class="thirteen wide column"><img class="ui centered medium image" alt="welcome" src="/img/home/home-title.png"></div>
           <!-- divider -->
           <div class="column">
             <div class="ui grid">
@@ -308,7 +313,7 @@
                                 <a class="dimmerfont" href="about.html">ABOUT</a></div>
                             </div>
                           </div>
-                          <img src="img/home/view1.PNG"> </div>
+                          <img src="/img/home/view1.png"> </div>
                         <script>dimmer();</script></div>
                         <div class="column">
                           <div class="ui fluid image">
@@ -319,7 +324,7 @@
                                 <a class="dimmerfont" href="websites.html">WEBSITES</a></div>
                             </div>
                           </div>
-                          <img src="/img/home/view3.PNG"> </div>
+                          <img src="/img/home/view3.png"> </div>
                         <script>dimmer();</script></div>
 						  
                         <div class="column">
@@ -331,7 +336,7 @@
                                 <a class="dimmerfont" href="contact.html">CONTACT</a></div>
                             </div>
                           </div>
-                          <img src="/img/home/view5.PNG"> </div>
+                          <img src="/img/home/view5.png"> </div>
                         <script>dimmer();</script></div>
                     </div>
                   </div>
@@ -350,7 +355,7 @@
                                   <a class="dimmerfont" href="experience.html">EXPERIENCE</a></div>
                               </div>
                             </div>
-                            <img src="/img/home/view2.PNG"> </div>
+                            <img src="/img/home/view2.png"> </div>
                           <script>dimmer();</script> 
                         </div>
                       </div>
@@ -363,7 +368,7 @@
                                 <a class="dimmerfont" href="design.html">DESIGN</a></div>
                             </div>
                           </div>
-                          <img src="/img/home/view4.PNG"> </div>
+                          <img src="/img/home/view4.png"> </div>
                         <script>dimmer();</script> </div>
                     </div>
                   </div>
@@ -397,7 +402,7 @@
                                           </div>
                                         </div>
                                       </div>
-                                      <img src="img/websites/view1.PNG"> </div>
+                                      <img src="/img/websites/view1.png"> </div>
                                     </button>
                                   </div>
                                   <script>dimmer();</script>
@@ -433,11 +438,11 @@
                       <!-- end of content -->
                       </p>
                     </div>
-					<div class="ui fluid title">OVERVIEW&nbsp;&nbsp;<i class="small plus icon"></i></div>
+			<div class="ui fluid title">OVERVIEW&nbsp;&nbsp;<i class="small plus icon"></i></div>
                     <div class="content">
                       <p class="transition visible" style="display: block !important;">
                       <div class="ui right floated grid">
-                        <div class="right aligned two column row">
+                        <div class="right aligned row">
                           <div class="right floated fifteen wide column">
                             <div class="ui divider"></div>
                             <div class="row">
@@ -449,7 +454,7 @@
                                   <script>dimmer();</script>
                                   <div class="five wide column">
                                     <div class="ui circular image">
-                                      <img src="img/home/view6.png"> </div>
+                                      <img src="/img/home/view6.png"> </div>
                                   </div>
                                   <div class="ui divider"></div>
                                   <!-- end of row --> 
@@ -471,6 +476,7 @@
                   </div>
                   <script>accordion();</script> 
                   <!-- end accordion --> 
+		  
 		  </div>
         <!-- footer -->
         <div class="ui center aligned two column grid">
@@ -501,7 +507,7 @@
     </div>
   </div>
 </div>
-
+	
 	<!-------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
@@ -570,10 +576,10 @@
                   <div class="row">
                     <div class="ui one column center aligned stackable grid">
                       <div class="centered row">
-                        <div class="center aligned column"><img src="/img/websites/view1-ss1.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss2.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss3.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss4.PNG"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss1.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss2.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss3.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss4.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss5.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss6.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss7.png"></div>
@@ -740,10 +746,10 @@
                   <div class="row">
                     <div class="ui one column center aligned stackable grid">
                       <div class="centered row">
-                        <div class="center aligned column"><img src="/img/websites/view1-ss1.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss2.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss3.PNG"></div>
-                        <div class="center aligned column"><img src="/img/websites/view1-ss4.PNG"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss1.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss2.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss3.png"></div>
+                        <div class="center aligned column"><img src="/img/websites/view1-ss4.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss5.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss6.png"></div>
                         <div class="center aligned column"><img src="/img/websites/view1-ss7.png"></div>
